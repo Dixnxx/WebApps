@@ -1,0 +1,35 @@
+body {
+    margin: 50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+}
+
+h1 {
+    color: whitesmoke; /*color de la lotra*/
+    background: palevioletred; /*color de  fondo de la lotra*/
+    text-align: center; /*alineacion del texto*/ 
+    font-family: "Dancing Script", serif; /*fuente de lettra*/
+    font-optical-sizing: auto;
+    font-weight: 400PX;
+    font-style: normal;
+}
+
+.img-main {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    border-width: 5px;
+    border-color: hotpink;
+    border-style: double;
+    border-radius: 50%;
+}
+
+p {
+    color: darkslateblue;
+    font-size: 18px;
+}

@@ -1,0 +1,51 @@
+<!-- FLEXBOX: Hace que las cajas sean flexibles.
+en bootstrap, tambien lo maneja a traves de clases que hacen que se trabaje -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style type="text/css">
+        .contenedor {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        Mi contenedor  
+        <i class="bi bi-balloon-heart" style="font-size: 100px;"></i>
+    </div>
+    <div class="d-flex justify-content-center flex-wrap aling-items-center">
+        mi contenedor con bootstrap
+        <i class="bi bi-balloon-heart" style="font-size: 2.5rem; margin: 60px;"></i>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--
+eje principal :
+justify.content : flex-start, flex-end, center, space-between, space-around, space-evenly
+
+CON BOOTSTRAP tenemos clases:
+    justify-content-start
+    justify-content-end
+    justify-content-center
+    justify-content-space-between
+
+eje secundario : 
+aling-items: flex-start, flex-end, center, baseline, stretch
+
+CON BOOTSTRAP tenemos clases:
+    .aling-items-start
+    .aling-items-end
+-->
